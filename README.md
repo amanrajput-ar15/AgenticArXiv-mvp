@@ -30,7 +30,7 @@
 
 ---
 
-## 🎯 What This Proves to Interviewers
+##  What This Proves to Interviewers
 
 | Skill | Evidence in This Project |
 |-------|--------------------------|
@@ -43,7 +43,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### High-Level Design
 
@@ -114,7 +114,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -178,7 +178,7 @@ git push origin main
 
 ---
 
-## 📊 Performance Benchmarks
+##  Performance Benchmarks
 
 | Operation | Billing Tier | Free Tier | Estimated Cost |
 |-----------|-------------|-----------|----------------|
@@ -211,7 +211,7 @@ git push origin main
 
 ---
 
-## 🔧 Key Implementation Details
+##  Key Implementation Details
 
 ### 1. Cross-Platform File Locking
 
@@ -332,7 +332,7 @@ for chunk in chunks:
 
 ---
 
-## 📈 Failure Log & Recoveries
+##  Failure Log & Recoveries
 
 Every bug here was hit in production. Documenting them is the point.
 
@@ -348,7 +348,7 @@ Every bug here was hit in production. Documenting them is the point.
 
 ---
 
-## 🎓 What I Learned
+##  What I Learned
 
 ### System Design Patterns
 
@@ -375,7 +375,7 @@ Every bug here was hit in production. Documenting them is the point.
 
 ---
 
-## 📚 API Reference
+##  API Reference
 
 ### Endpoints
 
@@ -467,7 +467,7 @@ curl http://localhost:8000/health
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 agenticarxiv/
@@ -493,7 +493,7 @@ agenticarxiv/
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 
 - [ ] WebSocket / SSE for true real-time progress (replace polling)
 - [ ] Parallel agent execution with `asyncio.gather` (paid tier only)
@@ -505,6 +505,6 @@ agenticarxiv/
 
 ---
 
-## 📝 License
+##  License
 
 MIT — Built for learning and portfolio demonstration.
