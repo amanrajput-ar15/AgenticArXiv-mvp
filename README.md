@@ -509,9 +509,3 @@ agenticarxiv/
 ## 📝 License
 
 MIT — Built for learning and portfolio demonstration.
-
----
-
-**Built by a 3rd-year BTech CSE student who wanted to stop writing CRUD apps.**
-
-*If you're a hiring manager: ask me about the `fcntl` → `portalocker` abstraction, why I chose sequential agents over parallel, or how I'd add WebSocket real-time updates. I can talk about this for hours.*
