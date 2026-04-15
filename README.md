@@ -11,7 +11,6 @@
 > Autonomous research system that ingests arXiv papers via async job queue, parses PDFs using Gemini 2.5 Flash vision, builds a FAISS 768-dim vector index, and orchestrates five specialized agents to produce structured research reports — with full Langfuse observability.
 
 **Live Demo:** [https://your-app.vercel.app](https://your-app.vercel.app)  
-**API Docs:** [https://your-api.railway.app/docs](https://your-api.railway.app/docs)
 
 ---
 
