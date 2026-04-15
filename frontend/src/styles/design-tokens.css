@@ -1,0 +1,74 @@
+/* Claude Design System tokens — import in layout.tsx */
+:root {
+  /* Backgrounds */
+  --parchment:      #e5e5e3;
+  --ivory:          #faf9f5;
+  --warm-sand:      #e8e6dc;
+  --pure-white:     #ffffff;
+
+  /* Dark surfaces */
+  --near-black:     #141413;
+  --dark-surface:   #30302e;
+
+  /* Text */
+  --text-primary:      #141413;
+  --text-secondary:    #5e5d59;
+  --text-tertiary:     #87867f;
+  --text-dark-warm:    #3d3d3a;
+  --text-warm-silver:  #b0aea5;
+
+  /* Brand - ADD THESE */
+  --terracotta:     #c96442;
+  --coral:          #d97757;
+
+  /* Borders */
+  --border-cream:   #f0eee6;
+  --border-warm:    #e8e6dc;
+  --border-dark:    #30302e;
+
+  /* Rings */
+  --ring-warm:      #d1cfc5;
+  --ring-deep:      #c2c0b6;
+
+  /* Semantic */
+  --error:          #b53333;
+  --success:        #15803d;
+  --focus-blue:     #3898ec;   /* ONLY for input focus rings */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--parchment);
+  color: var(--text-primary);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+button, input, textarea, label, nav, .ui-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position:  400px 0; }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+}
