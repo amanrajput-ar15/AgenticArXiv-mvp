@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: agenticarxiv-api
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+    disk:
+      name: agenticarxiv-data
+      mountPath: /mnt/volume
+      sizeGB: 1
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: VALKEY_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+
+  - type: worker
+    name: agenticarxiv-worker
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python worker.py
+    disk:
+      name: agenticarxiv-data
+      mountPath: /mnt/volume
+      sizeGB: 1
